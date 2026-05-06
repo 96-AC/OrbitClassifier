@@ -90,7 +90,7 @@ def build_cnn_model(num_classes):
     """Defines a simple CNN architecture for orbit classification."""
     model = models.Sequential([
         
-        layers.Conv2D(32, (3, 3), activation='relu', input_shape=(IMG_HEIGHT, IMG_WIDTH, 3)),
+        layers.Input(shape=(IMG_HEIGHT, IMG_WIDTH, 3)),
         layers.MaxPooling2D((2, 2)),
         
         layers.Conv2D(64, (3, 3), activation='relu'),
