@@ -1,6 +1,6 @@
-tensorflow
-streamlit
-numpy
 opencv-python-headless
 matplotlib
-protobuf==3.20.*
+tensorflow==2.13.0
+streamlit
+numpy
+pillow
