@@ -6,7 +6,7 @@ import os
 import io
 
 # --- CONFIGURATION ---
-MODEL_FILE = "vibration_model.keras"
+MODEL_FILE = "vibration_model.h5"
 CLASS_NAMES_FILE = "class_names.txt"
 IMG_HEIGHT = 128
 IMG_WIDTH = 128

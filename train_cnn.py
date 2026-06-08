@@ -9,7 +9,7 @@ IMG_HEIGHT = 128
 IMG_WIDTH = 128
 BATCH_SIZE = 32
 EPOCHS = 20
-MODEL_FILE = "vibration_model.keras"
+MODEL_FILE = "vibration_model.h5"
 
 # --- DATA LOADING ---
 def load_and_combine_data():
