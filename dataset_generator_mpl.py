@@ -8,7 +8,7 @@ import random
 # =======================
 IMG_SIZE = 512
 CENTER = IMG_SIZE // 2
-SCALE = 200
+SCALE = 2008
 POINTS = 1200
 DATASET_PATH = "orbit_dataset"
 
